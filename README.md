@@ -4,12 +4,12 @@
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 This project analyzes the relationship between **market sentiment** (Fear-Greed Index) and **daily trading performance** and predicts whether **the next day will be profitable**. It integrates sentiment data with live trading execution records and builds a full forecasting + classification pipeline using machine learning, cross-validation, SHAP explainability, and statistical time-series models.
 
 ---
 
-## 🚀 Key Capabilities
+##  Key Capabilities
 - End-to-end ML workflow and real financial forecasting
 - Sentiment + trade performance dataset merge (date-aligned)
 - VIF multicollinearity detection and lag-based feature engineering
@@ -23,7 +23,7 @@ This project analyzes the relationship between **market sentiment** (Fear-Greed 
 
 
 
-## 🧪 Pipeline Summary
+##  Pipeline Summary
 ### **Data Preparation**
 - Clean raw trade records
 - Aggregate by account and trading day
@@ -66,7 +66,7 @@ This project analyzes the relationship between **market sentiment** (Fear-Greed 
 
 ---
 
-## 🧠 Explainability
+## Explainability
 | Technique | Deliverable |
 |------------|---------------|
 | SHAP | Feature impact visualization & interpretability |
@@ -74,7 +74,7 @@ This project analyzes the relationship between **market sentiment** (Fear-Greed 
 
 ---
 
-## 📈 Visualizations Included
+## Visualizations Included
 - PnL distribution & sentiment histograms
 - Correlation heatmaps
 - ROC curves for all models
